@@ -1,15 +1,4 @@
-// function intro variavel
-// function anonymous
 
-
-// parâmetros (parameters)
-const sum = function (number1, number2) {
-    
-    let total = number1 + number2;
-    return total
-}
-
-sum(2, 3) // arguments - argumentos da fumction que foi executada
 
 let number1 = 34
 let number2 = 25
