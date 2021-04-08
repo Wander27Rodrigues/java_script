@@ -11,3 +11,5 @@ function createPhrase () {
 createPhrase();
 createPhrase();
 
+// the end application
+console.log('the end')
