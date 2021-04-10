@@ -7,3 +7,9 @@ function createPhrase () {
     console.log('Sempre busque o proximo nivel')
 }
 
+// execute, run, call, invoke the function
+createPhrase();
+createPhrase();
+
+// the end application
+console.log('the end')
