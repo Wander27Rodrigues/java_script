@@ -1,9 +1,27 @@
 // manipulando Array
 
-// Transformar uma cadeia de caracteres em elementos de um array
+let techs = ["html", "css", "js"]
 
-let word = "manipulação"
-console.log(Array.from(word))
+// adicionar um item no fim
+console.log(techs.push("nodejs"))
+// adicionar um começo
+techs.unshift("sql")
+// remover do fim para
+techs.pop()
+// remover do começo
+techs.shift()
+// pegar somente alguns elementos do array
+console.log(techs.slice(1, 3))
+// remover 1 ou mais itens em qualquer posição do array
+techs.slice(1, 3)
+// encontrar a posição de um elemento no Array
+let index = techs.indexOf('css')
+
+console.log(index)
+
+
+
+
 
 
 
