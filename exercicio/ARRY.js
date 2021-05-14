@@ -8,7 +8,7 @@
          - Mostrar Livros do autor Augusto Cury
          - Transformar a função acima em uma que irá receber o nome do autor e devolver os livros desse autor.
 */
-
+//Sistema de biblioteca
 const booksByCategory = [
     {
         category: "Riqueza",
@@ -67,4 +67,23 @@ function countAuthors(){
                 }
             }
         }
+
+        console.log("Total de autores:" , authors.length)
 }
+
+countAuthors();
+
+function booksOfAuthor(author){
+    let books = [];
+        for(let category of booksByCategory){
+            for(let book of category.books){
+                if(book.author === author){
+                    book.push(book.title)
+                }
+            }
+        }
+
+        console.log(`Livros do Autor ${author}: , ${books.join(", ")}`)
+}
+
+booksOfAuthor('Augusto Cury');
